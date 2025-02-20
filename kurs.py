@@ -1,6 +1,6 @@
 import requests 
 from bs4 import BeautifulSoup 
-from googletrans import Translator
+from googletrans import Translator #pip install googletrans==4.0.0-rc1
 
 def tran(text):
     translator = Translator()
